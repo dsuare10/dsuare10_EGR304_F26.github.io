@@ -65,9 +65,9 @@ This page compares the components considered for the laundry-folding robot. Each
 | Encoder feedback can improve repeatability with different clothing weights. | PWM or closed-loop control would likely be necessary for smooth movement. |
 | Rated torque of 1765 mN·m is substantially higher than either FIT0492 option. | Encoder feedback requires additional PIC inputs and more complicated firmware. |
 
-**Choice:** PASTE_SELECTED_MOTOR_HERE
+**Choice:** Option 3: DFRobot FIT0186
 
-**Rationale:** PASTE_MOTOR_RATIONALE_HERE
+**Rationale:** The DFRobot FIT0186 was selected because it provides the highest rated torque of the three motor options at 1765 mN·m and includes a built-in incremental encoder. The encoder is particularly useful for the folding robot because the PIC can use the encoder feedback to determine how far the folding panel has rotated instead of relying only on timing. This should provide more repeatable 90–180° movements when different weights of clothing are placed on the panel. Although the FIT0186 is more expensive and operates at a higher speed than the other options, PWM and encoder feedback can be used to control its motion. Its combination of higher torque and position feedback makes it the best choice for accurately controlling the folding panels.
 
 ---
 
@@ -129,9 +129,9 @@ This page compares the components considered for the laundry-folding robot. Each
 | Through-hole package is convenient for prototyping. | Ambient room lighting can affect output. |
 | Low cost has little impact on the overall budget. | Improved specifications provide limited benefit for simple light-change detection. |
 
-**Choice:** PASTE_SELECTED_PHOTORESISTOR_HERE
+**Choice:** Option 1: PDV-P8103
 
-**Rationale:** PASTE_PHOTORESISTOR_RATIONALE_HERE
+**Rationale:** The PDV-P8103 was selected because it provides the required light-detection capability at the lowest cost of the three options. Its resistance changes significantly between dark and illuminated conditions, allowing the PIC to detect changes in light through a simple voltage-divider circuit connected to its ADC. Its 60 ms rise time and 25 ms fall time are also much faster than the mechanical movement of the folding robot, so a faster sensor is unnecessary. At only $0.72, the PDV-P8103 provides the required functionality while minimizing the impact on the project's $60 budget.
 
 ---
 
@@ -194,9 +194,9 @@ This page compares the components considered for the laundry-folding robot. Each
 | Supports bidirectional motor operation. | Exposed thermal pad requires proper PCB layout. |
 | 8-pin package may simplify PCB routing. | Does not provide hinge-position feedback. |
 
-**Choice:** PASTE_SELECTED_H_BRIDGE_HERE
+**Choice:** Option 2: DRV8876PWPR
 
-**Rationale:** PASTE_H_BRIDGE_RATIONALE_HERE
+**Rationale:** The DRV8876PWPR was selected because it provides a good balance between current capability, cost, and compatibility with the 12 V motor system. Its 3.5 A output capability provides sufficient current capacity for the approximately 2.19 A locked-rotor current of the FIT0492 motors considered during the design. It also supports PWM control, allowing the PIC to control motor speed and produce smoother folding movements. Unlike the less expensive TB67H450FNG,EL, the DRV8876PWPR is listed as an active component rather than "Not For New Designs." At $2.07, it provides the required bidirectional motor-control functionality without the additional cost of the 5 A MP6612GF-P.
 
 ---
 
@@ -259,9 +259,9 @@ This page compares the components considered for the laundry-folding robot. Each
 | Medical-rated adapter with safety approvals. | AC input cord is sold separately. |
 | Wide 80–264 VAC input range. | A separate 5 V regulator is still required. |
 
-**Choice:** PASTE_SELECTED_12V_SUPPLY_HERE
+**Choice:** Option 1: MEAN WELL GST60A12-P1J
 
-**Rationale:** PASTE_12V_SUPPLY_RATIONALE_HERE
+**Rationale:** The MEAN WELL GST60A12-P1J was selected because its regulated 12 V output directly matches the robot's planned motor power rail and its 5 A output provides more current capacity than the 3 A PEAD36B-12-B2. The supply can provide up to 60 W, giving the system additional capacity for motor startup current and other electronics. Although the GSM60A12-P1J provides the same 12 V, 5 A, and 60 W output, it costs $23.90 compared with $19.40 for the GST60A12-P1J. Therefore, the GST60A12-P1J provides the required electrical performance at the lower cost.
 
 ---
 
@@ -330,6 +330,6 @@ This page compares the components considered for the laundry-folding robot. Each
 | Includes short-circuit and over-temperature protection. | Consumes approximately 17% of the project's $60 budget. |
 | High efficiency minimizes wasted power and heat. | Switching noise may affect the photoresistor ADC circuit if filtering/layout is poor. |
 
-**Choice:** PASTE_SELECTED_5V_CONVERTER_HERE
+**Choice:** Option 1: Murata OKI-78SR-5/1.5-W36-C
 
-**Rationale:** PASTE_5V_CONVERTER_RATIONALE_HERE
+**Rationale:** The Murata OKI-78SR-5/1.5-W36-C was selected because it is the only one of the three options that meets the currently specified 1.5 A requirement for the robot's 5 V rail. It can accept the robot's 12 V supply and efficiently convert it to a regulated 5 V output, allowing the entire system to operate from the same external 12 V power supply. Its efficiency of up to 90.5% also reduces wasted power and heat compared with a traditional linear regulator. Although the other two converters are also efficient, they provide only 1 A and therefore do not meet the specified 1.5 A requirement. At $6.00, the Murata converter provides the required current while remaining reasonably priced.
