@@ -12,13 +12,14 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 1 — DFRobot FIT0492-B
 
-![DFRobot FIT0492-B](images/FIT0492-B.png)
+![DFRobot FIT0492-B](<img width="1282" height="804" alt="Screenshot 2026-10-16 190143" src="https://github.com/user-attachments/assets/fa9365bd-308b-4e2f-8b41-d5457eb64b82" />)
+
 
 * **Voltage:** 12 V
 * **Part:** DFRobot FIT0492-B
 * **Torque:** 686.5 mN·m
 * **Price:** $11.90
-* **Product Link:** [DigiKey Product Page](PASTE_FIT0492_B_LINK_HERE)
+* **Product Link:** [DigiKey Product Page](https://www.digikey.com/en/products/detail/dfrobot/FIT0492-B/7087168?s=N4IgTCBcDaICIDEBKB7ARigLgAgQSQBUAGAFgE4wBaAIRAF0BfIA)
 
 | Pros | Cons |
 | --- | --- |
@@ -30,13 +31,14 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 2 — DFRobot FIT0492-A
 
-![DFRobot FIT0492-A](images/FIT0492-A.png)
+![DFRobot FIT0492-A]<img width="1536" height="1226" alt="Screenshot 2026-10-16 192433" src="https://github.com/user-attachments/assets/93770500-0e99-4780-969e-d902ee32a19e" />
+
 
 * **Voltage:** 12 V
 * **Part:** DFRobot FIT0492-A
 * **Torque:** 883 mN·m
 * **Price:** $11.90
-* **Product Link:** [DigiKey Product Page](PASTE_FIT0492_A_LINK_HERE)
+* **Product Link:** [DigiKey Product Page](https://www.digikey.com/en/products/detail/dfrobot/FIT0492-A/7087165?s=N4IgTCBcDaIGIEkAqAGALATjAWgIIgF0BfIA)
 
 | Pros | Cons |
 | --- | --- |
@@ -47,13 +49,14 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 3 — DFRobot FIT0186
 
-![DFRobot FIT0186](images/FIT0186.png)
+![DFRobot FIT0186]<img width="1577" height="1411" alt="Screenshot 2026-10-16 193030" src="https://github.com/user-attachments/assets/418513df-807b-42f5-bd82-e4feef252cc8" />
+
 
 * **Voltage:** 12 V
 * **Part:** DFRobot FIT0186
 * **Torque:** 1765 mN·m
 * **Price:** $16.50
-* **Product Link:** [DigiKey Product Page](PASTE_FIT0186_LINK_HERE)
+* **Product Link:** [DigiKey Product Page](https://www.digikey.com/en/products/detail/dfrobot/FIT0492-A/7087165?s=N4IgTCBcDaIGIEkAqAGALATjAWgIIgF0BfIA)
 
 | Pros | Cons |
 | --- | --- |
@@ -72,13 +75,14 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 1 — PDV-P8103
 
-![PDV-P8103](images/PDV-P8103.png)
+![PDV-P8103]<img width="1520" height="890" alt="Screenshot 2026-10-16 202209" src="https://github.com/user-attachments/assets/0cf2b589-2c46-4d8d-89c7-ded1faad053a" />
+
 
 * **Dark Resistance:** 500 kΩ
 * **Light Resistance:** 16–33 kΩ
 * **Part:** PDV-P8103
 * **Price:** $0.72
-* **Product Link:** [DigiKey Product Page](PASTE_PDV_P8103_LINK_HERE)
+* **Product Link:** [DigiKey Product Page](https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P8103/480610?utm_source=chatgpt.com)
 
 | Pros | Cons |
 | --- | --- |
@@ -90,13 +94,14 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 2 — NSL-19M51
 
-![NSL-19M51](images/NSL-19M51.png)
+![NSL-19M51]<img width="1520" height="890" alt="Screenshot 2026-10-16 202209" src="https://github.com/user-attachments/assets/ecaaeb7a-8919-47f7-9080-414544e17312" />
+
 
 * **Dark Resistance:** 20 MΩ
 * **Light Resistance:** 20–100 kΩ
 * **Part:** NSL-19M51
 * **Price:** $1.05
-* **Product Link:** [DigiKey Product Page](PASTE_NSL_19M51_LINK_HERE)
+* **Product Link:** [DigiKey Product Page](https://www.digikey.com/en/products/detail/advanced-photonix/NSL-19M51/5039794?utm_source=chatgpt.com)
 
 | Pros | Cons |
 | --- | --- |
@@ -107,13 +112,14 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 3 — PDV-P9203
 
-![PDV-P9203](images/PDV-P9203.png)
+![PDV-P9203]<img width="1520" height="890" alt="Screenshot 2026-10-16 202209" src="https://github.com/user-attachments/assets/cfede41d-5d95-4678-95cd-9081f3ac5483" />
+
 
 * **Dark Resistance:** 5 MΩ
 * **Light Resistance:** 10–30 kΩ
 * **Part:** PDV-P9203
 * **Price:** $1.27
-* **Product Link:** [DigiKey Product Page](PASTE_PDV_P9203_LINK_HERE)
+* **Product Link:** [DigiKey Product Page](https://www.digikey.com/en/products/detail/advanced-photonix/PDV-P9203/480628)
 
 | Pros | Cons |
 | --- | --- |
@@ -133,13 +139,14 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 1 — MP6612GF-P
 
-![MP6612GF-P](images/MP6612GF-P.png)
+![MP6612GF-P]<img width="1529" height="1390" alt="Screenshot 2026-10-16 203634" src="https://github.com/user-attachments/assets/5be68a28-a6a8-471e-9145-8b08442b1c16" />
+
 
 * **Output Current:** 5 A
 * **Load Voltage:** 4–40 V
 * **Part:** MP6612GF-P
 * **Price:** $3.66
-* **Product Link:** [DigiKey Product Page](PASTE_MP6612_LINK_HERE)
+* **Product Link:** [DigiKey Product Page](https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP6612GF-P/24709807?s=N4IgTCBcDaILIAUBsSCMYDiAxAtAkAugL5A)
 
 | Pros | Cons |
 | --- | --- |
@@ -151,13 +158,14 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 2 — DRV8876PWPR
 
-![DRV8876PWPR](images/DRV8876PWPR.png)
+![DRV8876PWPR]<img width="1557" height="1382" alt="Screenshot 2026-10-16 204407" src="https://github.com/user-attachments/assets/7055c0bd-891e-409b-9e1a-75373de66519" />
+
 
 * **Output Current:** 3.5 A
 * **Load Voltage:** 4.5–37 V
 * **Part:** DRV8876PWPR
 * **Price:** $2.07
-* **Product Link:** [DigiKey Product Page](PASTE_DRV8876_LINK_HERE)
+* **Product Link:** [DigiKey Product Page](https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP6612GF-P/24709807?s=N4IgTCBcDaILIAUBsSCMYDiAxAtAkAugL5A)
 
 | Pros | Cons |
 | --- | --- |
@@ -169,13 +177,14 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 3 — TB67H450FNG,EL
 
-![TB67H450FNG](images/TB67H450FNG.png)
+![TB67H450FNG](<img width="1566" height="1297" alt="Screenshot 2026-10-16 204701" src="https://github.com/user-attachments/assets/d2fabb34-eff9-4410-acab-231d3ae7bc90" />)
+
 
 * **Output Current:** 3.5 A
 * **Load Voltage:** 4.5–44 V
 * **Part:** TB67H450FNG,EL
 * **Price:** $1.33
-* **Product Link:** [DigiKey Product Page](PASTE_TB67H450_LINK_HERE)
+* **Product Link:** [DigiKey Product Page](https://www.digikey.com/en/products/detail/toshiba-semiconductor-and-storage/TB67H450FNG-EL/10130904?s=N4IgTCBcDaICoCEBsB2AEgFgKwAYBiAcgOIA0AogDIgC6AvkA)
 
 | Pros | Cons |
 | --- | --- |
@@ -195,7 +204,8 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 1 — MEAN WELL GST60A12-P1J
 
-![GST60A12-P1J](images/GST60A12-P1J.png)
+![GST60A12-P1J](<img width="1548" height="1453" alt="image" src="https://github.com/user-attachments/assets/8e0c3998-7bc5-4672-83c7-c7730fd1adda" />
+)
 
 * **Output Voltage:** 12 V DC
 * **Output Current:** 5 A
