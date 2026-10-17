@@ -1343,8 +1343,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> PASTE_SELECTED_MOTOR_HERE</p>
-<p><strong>Rationale:</strong> PASTE_MOTOR_RATIONALE_HERE</p>
+<p><strong>Choice:</strong> Option 3: DFRobot FIT0186</p>
+<p><strong>Rationale:</strong> The DFRobot FIT0186 was selected because it provides the highest rated torque of the three motor options at 1765 mN·m and includes a built-in incremental encoder. The encoder is particularly useful for the folding robot because the PIC can use the encoder feedback to determine how far the folding panel has rotated instead of relying only on timing. This should provide more repeatable 90–180° movements when different weights of clothing are placed on the panel. Although the FIT0186 is more expensive and operates at a higher speed than the other options, PWM and encoder feedback can be used to control its motion. Its combination of higher torque and position feedback makes it the best choice for accurately controlling the folding panels.</p>
 <hr>
 <h2 id="photoresistor">Photoresistor</h2>
 <h3 id="option-1-pdv-p8103">Option 1 — PDV-P8103</h3>
@@ -1460,8 +1460,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> PASTE_SELECTED_PHOTORESISTOR_HERE</p>
-<p><strong>Rationale:</strong> PASTE_PHOTORESISTOR_RATIONALE_HERE</p>
+<p><strong>Choice:</strong> Option 1: PDV-P8103</p>
+<p><strong>Rationale:</strong> The PDV-P8103 was selected because it provides the required light-detection capability at the lowest cost of the three options. Its resistance changes significantly between dark and illuminated conditions, allowing the PIC to detect changes in light through a simple voltage-divider circuit connected to its ADC. Its 60 ms rise time and 25 ms fall time are also much faster than the mechanical movement of the folding robot, so a faster sensor is unnecessary. At only $0.72, the PDV-P8103 provides the required functionality while minimizing the impact on the project's $60 budget.</p>
 <hr>
 <h2 id="h-bridge-motor-driver">H-Bridge Motor Driver</h2>
 <h3 id="option-1-mp6612gf-p">Option 1 — MP6612GF-P</h3>
@@ -1581,8 +1581,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> PASTE_SELECTED_H_BRIDGE_HERE</p>
-<p><strong>Rationale:</strong> PASTE_H_BRIDGE_RATIONALE_HERE</p>
+<p><strong>Choice:</strong> Option 2: DRV8876PWPR</p>
+<p><strong>Rationale:</strong> The DRV8876PWPR was selected because it provides a good balance between current capability, cost, and compatibility with the 12 V motor system. Its 3.5 A output capability provides sufficient current capacity for the approximately 2.19 A locked-rotor current of the FIT0492 motors considered during the design. It also supports PWM control, allowing the PIC to control motor speed and produce smoother folding movements. Unlike the less expensive TB67H450FNG,EL, the DRV8876PWPR is listed as an active component rather than "Not For New Designs." At $2.07, it provides the required bidirectional motor-control functionality without the additional cost of the 5 A MP6612GF-P.</p>
 <hr>
 <h2 id="12-v-power-supply">12 V Power Supply</h2>
 <h3 id="option-1-mean-well-gst60a12-p1j">Option 1 — MEAN WELL GST60A12-P1J</h3>
@@ -1705,8 +1705,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> PASTE_SELECTED_12V_SUPPLY_HERE</p>
-<p><strong>Rationale:</strong> PASTE_12V_SUPPLY_RATIONALE_HERE</p>
+<p><strong>Choice:</strong> Option 1: MEAN WELL GST60A12-P1J</p>
+<p><strong>Rationale:</strong> The MEAN WELL GST60A12-P1J was selected because its regulated 12 V output directly matches the robot's planned motor power rail and its 5 A output provides more current capacity than the 3 A PEAD36B-12-B2. The supply can provide up to 60 W, giving the system additional capacity for motor startup current and other electronics. Although the GSM60A12-P1J provides the same 12 V, 5 A, and 60 W output, it costs $23.90 compared with $19.40 for the GST60A12-P1J. Therefore, the GST60A12-P1J provides the required electrical performance at the lower cost.</p>
 <hr>
 <h2 id="5-v-dc-dc-converter">5 V DC-DC Converter</h2>
 <h3 id="option-1-murata-oki-78sr-515-w36-c">Option 1 — Murata OKI-78SR-5/1.5-W36-C</h3>
@@ -1835,8 +1835,8 @@
 </tr>
 </tbody>
 </table>
-<p><strong>Choice:</strong> PASTE_SELECTED_5V_CONVERTER_HERE</p>
-<p><strong>Rationale:</strong> PASTE_5V_CONVERTER_RATIONALE_HERE</p>
+<p><strong>Choice:</strong> Option 1: Murata OKI-78SR-5/1.5-W36-C</p>
+<p><strong>Rationale:</strong> The Murata OKI-78SR-5/1.5-W36-C was selected because it is the only one of the three options that meets the currently specified 1.5 A requirement for the robot's 5 V rail. It can accept the robot's 12 V supply and efficiently convert it to a regulated 5 V output, allowing the entire system to operate from the same external 12 V power supply. Its efficiency of up to 90.5% also reduces wasted power and heat compared with a traditional linear regulator. Although the other two converters are also efficient, they provide only 1 A and therefore do not meet the specified 1.5 A requirement. At $6.00, the Murata converter provides the required current while remaining reasonably priced.</p>
 
 
 
