@@ -12,7 +12,7 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 1 — DFRobot FIT0492-B
 
-![DFRobot FIT0492-B](<img width="1282" height="804" alt="Screenshot 2026-10-16 190143" src="https://github.com/user-attachments/assets/fa9365bd-308b-4e2f-8b41-d5457eb64b82" />)
+<img width="1282" height="804" alt="Screenshot 2026-10-16 190143" src="https://github.com/user-attachments/assets/fa9365bd-308b-4e2f-8b41-d5457eb64b82" />
 
 
 * **Voltage:** 12 V
