@@ -1,28 +1,25 @@
 ---
 title: Bill of Materials
 tags:
-- tag1
-- tag2
+- BOM
+- Components
 ---
 
 ## Overview
-written context
 
-## Bill of Materials Example (as Table)
+The Bill of Materials (BOM) provides a complete list of the electrical components required to construct the laundry-folding robot subsystem. The table identifies each component, the quantity required, unit and total cost, manufacturer information, vendor and datasheet links, and the corresponding schematic reference designators. The BOM is based on the components selected during the component-selection and schematic-design processes and will be updated as the design is finalized.
 
-*Table ##: An example of one approach to adding your BOM table to this section.*
+## Bill of Materials
 
-| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacture** | **Manufacturer #** | **Vendor Link** |**Datasheet Link** | **Schematic Reference Designators** |
-|:--------------------|:----|:---------------|:-----|:--------|:-----|:-----|:----|:-----|
-8-bit SIPO/SISO Shift Register, SOIC-16 package | 1 | $0.49 | $ 0.49 | NXP | 74HC595D,112 | [DigiKey](https://www.digikey.com/en/products/detail/nexperia-usa-inc/74HC595D-112/763550) | [datasheet link](https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf) | U1 |
-0.1 µF Ceramic Capacitor, +/-10%, X7R, 50V, 0805 package |10 | 0.2750 | $2.75 | KEMET | C0805F104K5RACTU | PRLTA 109 |n/a | C2, C4, C6, C7, C8, C9, C10, C11, C12, C16
+| **Part Name/Description** | **Qty** | **Unit Cost** | **Total Cost** | **Manufacturer** | **Manufacturer #** | **Vendor Link** | **Datasheet Link** | **Schematic Reference Designators** |
+|:---|:---:|:---:|:---:|:---|:---|:---|:---|:---|
+| 5 V Linear Voltage Regulator | 1 | TBD | TBD | STMicroelectronics | L7805CV | [DigiKey](https://www.digikey.com/) | [Datasheet](https://www.st.com/resource/en/datasheet/l78.pdf) | U1 |
+| Quad Operational Amplifier | 1 | TBD | TBD | Microchip Technology | MCP6004-I/P | [DigiKey](https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060) | [Datasheet](https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf) | U2 |
+| Reflective IR Emitter/Detector Sensor | 1 | TBD | TBD | TT Electronics/Optek | OPB732 | [DigiKey](https://www.digikey.com/) | [Datasheet](https://www.digikey.com/htmldatasheets/production/101823/0/0/1/opb732.pdf) | TBD |
+| H-Bridge Motor Driver | 1 | TBD | TBD | Texas Instruments | DRV8876PWPR | [DigiKey](https://www.digikey.com/) | [Datasheet](https://www.ti.com/lit/ds/symlink/drv8876.pdf) | U3 |
+| DC Gear Motor with Encoder | 1 | $16.50 | $16.50 | DFRobot | FIT0186 | [DigiKey](https://www.digikey.com/) | TBD | M1 |
+| PIC18F57Q43 Curiosity Nano | 1 | TBD | TBD | Microchip Technology | DM164150 | [DigiKey](https://www.digikey.com/) | [Datasheet](https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F27-47-57Q43-Data-Sheet-40002147.pdf) | TBD |
 
-Note: Setting it up as a table is nice because it is completely viewable without scaling issues. <ins>Downside</ins> is that you have to do the math.
+## Additional Components
 
-* You could also import your BOM via a screenshot of the spreadsheet created BOM
-
-## Bill of Materials Example (as Image)
-![](BOM-Screenshot.png){style width: "2000"}
-**Figure 2:** Example Bill of Materials as a screenshot.
-
-As you can see, the text can be difficult to read without opening the image.
+The final BOM should also include all components used in the completed schematic, including connectors, resistors, capacitors, diodes, LEDs, pushbuttons, test points, and other supporting components. Quantities and schematic reference designators will be finalized after completion of the schematic.
