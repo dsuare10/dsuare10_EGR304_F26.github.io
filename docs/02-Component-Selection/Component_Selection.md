@@ -340,7 +340,7 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 1 — STMicroelectronics L7805CV
 
-<!-- ADD DIGIKEY SCREENSHOT HERE -->
+<img width="1559" height="1339" alt="image" src="https://github.com/user-attachments/assets/14611ff6-bb43-4cb7-a3a1-cc6146aca452" />
 
 * **Input Voltage Maximum:** 35 V
 * **Output Voltage:** 5 V
@@ -360,7 +360,7 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 2 — onsemi MC7805CTG
 
-<!-- ADD DIGIKEY SCREENSHOT HERE -->
+<img width="1549" height="1313" alt="image" src="https://github.com/user-attachments/assets/cb91f030-029c-44f8-8957-a97ef635d131" />
 
 * **Input Voltage Maximum:** 35 V
 * **Output Voltage:** 5 V
@@ -379,7 +379,7 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 3 — Texas Instruments UA7805CKCS
 
-<!-- ADD DIGIKEY SCREENSHOT HERE -->
+<img width="1560" height="1360" alt="image" src="https://github.com/user-attachments/assets/4cc7a378-ee63-4e8c-94bc-046c9bafd970" />
 
 * **Input Voltage Maximum:** 25 V
 * **Output Voltage:** 5 V
