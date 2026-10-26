@@ -13,4 +13,4 @@ I am having issues with showing the screen shot. It is meant to go here.
 
 ## Resources
 
-The schematic as a PDF download is available [*here*](Individual%20Subsystem%20Schematic.pdf), and the Zip folder of the project [*here*](Individual-Subsystem-Schematic-Design.zip).
+The schematic as a PDF download is available [*here*](Individual%20Subsystem%20Schematic%(IR Sensor).pdf), and the Zip folder of the project [*here*](Individual-Subsystem-Schematic-Design.zip).
