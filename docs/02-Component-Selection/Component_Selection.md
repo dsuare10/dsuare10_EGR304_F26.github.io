@@ -75,7 +75,7 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 1 — TT Electronics/Optek OPB732
 
-<!-- ADD DIGIKEY SCREENSHOT HERE -->
+<img width="1535" height="1301" alt="image" src="https://github.com/user-attachments/assets/5bbe6b4f-7f3c-479b-8e1c-fcc4b94b5a54" />
 
 * **Sensing Method:** Reflective infrared
 * **Output Type:** Phototransistor
@@ -95,7 +95,7 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 2 — TT Electronics/Optek OPB704WZ
 
-<!-- ADD DIGIKEY SCREENSHOT HERE -->
+<img width="1555" height="1511" alt="image" src="https://github.com/user-attachments/assets/76b640ea-c99e-4d81-bc6e-bf11e14d3f4b" />
 
 * **Sensing Method:** Reflective infrared
 * **Output Type:** Phototransistor
@@ -114,7 +114,7 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 3 — TT Electronics/Optek OPB742
 
-<!-- ADD DIGIKEY SCREENSHOT HERE -->
+<img width="1562" height="1553" alt="image" src="https://github.com/user-attachments/assets/652f688a-7cd1-4d34-ad10-9e610547d519" />
 
 * **Sensing Method:** Reflective infrared
 * **Output Type:** Phototransistor
@@ -141,7 +141,7 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 1 — Microchip MCP6004-I/P
 
-<!-- ADD DIGIKEY SCREENSHOT HERE -->
+<img width="1549" height="1506" alt="image" src="https://github.com/user-attachments/assets/78965c29-6543-47c9-85b4-3b116efb0609" />
 
 * **Supply Voltage:** 1.8–6 V
 * **Number of Amplifiers:** 4
@@ -162,7 +162,7 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 2 — Microchip MCP6002-I/P
 
-<!-- ADD DIGIKEY SCREENSHOT HERE -->
+<img width="1544" height="1487" alt="image" src="https://github.com/user-attachments/assets/a0fbff40-4b55-4ff5-9246-058328bdd7f5" />
 
 * **Supply Voltage:** 1.8–6 V
 * **Number of Amplifiers:** 2
@@ -183,7 +183,7 @@ This page compares the components considered for the laundry-folding robot. Each
 
 ### Option 3 — Texas Instruments LM358P
 
-<!-- ADD DIGIKEY SCREENSHOT HERE -->
+<img width="1571" height="1221" alt="image" src="https://github.com/user-attachments/assets/0c0883fd-122b-43ee-a558-97092669c71d" />
 
 * **Supply Voltage:** 3–30 V
 * **Number of Amplifiers:** 2
