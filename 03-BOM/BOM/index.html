@@ -612,9 +612,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-components" class="md-nav__link">
+  <a href="#components-requiring-purchase" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional Components
+      Components Requiring Purchase
     </span>
   </a>
   
@@ -827,9 +827,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#additional-components" class="md-nav__link">
+  <a href="#components-requiring-purchase" class="md-nav__link">
     <span class="md-ellipsis">
-      Additional Components
+      Components Requiring Purchase
     </span>
   </a>
   
@@ -861,7 +861,7 @@
   <h1>Bill of Materials</h1>
 
 <h2 id="overview">Overview</h2>
-<p>The Bill of Materials (BOM) provides a complete list of the electrical components required to construct the laundry-folding robot subsystem. The table identifies each component, the quantity required, unit and total cost, manufacturer information, vendor and datasheet links, and the corresponding schematic reference designators. The BOM is based on the components selected during the component-selection and schematic-design processes and will be updated as the design is finalized.</p>
+<p>The Bill of Materials (BOM) provides a complete list of the electrical and electromechanical components required for the laundry-folding robot subsystem. All components used in the schematic are included, including components already available in the Peralta 109 laboratory. Most electronic components and supporting hardware are available from the existing Peralta inventory; therefore, the primary components that must be purchased for this subsystem are the 12 V power supply and the DFRobot FIT0492-A DC gearmotor. The BOM will continue to be updated as the subsystem design is finalized.</p>
 <h2 id="bill-of-materials">Bill of Materials</h2>
 <table>
 <thead>
@@ -871,7 +871,7 @@
 <th style="text-align: center;"><strong>Unit Cost</strong></th>
 <th style="text-align: center;"><strong>Total Cost</strong></th>
 <th style="text-align: left;"><strong>Manufacturer</strong></th>
-<th style="text-align: left;"><strong>Manufacturer #</strong></th>
+<th style="text-align: left;"><strong>Manufacturer # / Value</strong></th>
 <th style="text-align: left;"><strong>Vendor Link</strong></th>
 <th style="text-align: left;"><strong>Datasheet Link</strong></th>
 <th style="text-align: left;"><strong>Schematic Reference Designators</strong></th>
@@ -879,75 +879,344 @@
 </thead>
 <tbody>
 <tr>
+<td style="text-align: left;">12 V, 50 RPM DC Gearmotor</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">$11.90</td>
+<td style="text-align: center;">$11.90</td>
+<td style="text-align: left;">DFRobot</td>
+<td style="text-align: left;">FIT0492-A</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/dfrobot/FIT0492-A/7087165">DigiKey</a></td>
+<td style="text-align: left;"><a href="https://media.digikey.com/pdf/Data%20Sheets/DFRobot%20PDFs/FIT0492-A_Web.pdf">Datasheet</a></td>
+<td style="text-align: left;">M2</td>
+</tr>
+<tr>
+<td style="text-align: left;">12 V, 5 A, 60 W AC/DC Power Supply</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">$19.40</td>
+<td style="text-align: center;">$19.40</td>
+<td style="text-align: left;">MEAN WELL</td>
+<td style="text-align: left;">GST60A12-P1J</td>
+<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/mean-well-usa-inc/GST60A12-P1J/7703712">DigiKey</a></td>
+<td style="text-align: left;"><a href="https://www.meanwell.com/Upload/PDF/GST60A/GST60A-SPEC.PDF">Datasheet</a></td>
+<td style="text-align: left;">External Power Supply</td>
+</tr>
+<tr>
+<td style="text-align: left;">PIC18F57Q43 Curiosity Nano Development Board</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Microchip Technology</td>
+<td style="text-align: left;">DM164150</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;"><a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F27-47-57Q43-Data-Sheet-40002147.pdf">Datasheet</a></td>
+<td style="text-align: left;">PIC18F57Q43_CuriosityNano_DS1</td>
+</tr>
+<tr>
 <td style="text-align: left;">5 V Linear Voltage Regulator</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">TBD</td>
-<td style="text-align: center;">TBD</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
 <td style="text-align: left;">STMicroelectronics</td>
 <td style="text-align: left;">L7805CV</td>
-<td style="text-align: left;"><a href="https://www.digikey.com/">DigiKey</a></td>
+<td style="text-align: left;">Peralta 109</td>
 <td style="text-align: left;"><a href="https://www.st.com/resource/en/datasheet/l78.pdf">Datasheet</a></td>
-<td style="text-align: left;">U1</td>
+<td style="text-align: left;">U2</td>
 </tr>
 <tr>
 <td style="text-align: left;">Quad Operational Amplifier</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">TBD</td>
-<td style="text-align: center;">TBD</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
 <td style="text-align: left;">Microchip Technology</td>
 <td style="text-align: left;">MCP6004-I/P</td>
-<td style="text-align: left;"><a href="https://www.digikey.com/en/products/detail/microchip-technology/MCP6004-I-P/523060">DigiKey</a></td>
+<td style="text-align: left;">Peralta 109</td>
 <td style="text-align: left;"><a href="https://ww1.microchip.com/downloads/en/DeviceDoc/MCP6001-1R-1U-2-4-1-MHz-Low-Power-Op-Amp-DS20001733L.pdf">Datasheet</a></td>
-<td style="text-align: left;">U2</td>
+<td style="text-align: left;">U1</td>
 </tr>
 <tr>
 <td style="text-align: left;">Reflective IR Emitter/Detector Sensor</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">TBD</td>
-<td style="text-align: center;">TBD</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
 <td style="text-align: left;">TT Electronics/Optek</td>
 <td style="text-align: left;">OPB732</td>
-<td style="text-align: left;"><a href="https://www.digikey.com/">DigiKey</a></td>
+<td style="text-align: left;">Peralta 109</td>
 <td style="text-align: left;"><a href="https://www.digikey.com/htmldatasheets/production/101823/0/0/1/opb732.pdf">Datasheet</a></td>
-<td style="text-align: left;">TBD</td>
+<td style="text-align: left;">IR Sensor</td>
 </tr>
 <tr>
 <td style="text-align: left;">H-Bridge Motor Driver</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">TBD</td>
-<td style="text-align: center;">TBD</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
 <td style="text-align: left;">Texas Instruments</td>
 <td style="text-align: left;">DRV8876PWPR</td>
-<td style="text-align: left;"><a href="https://www.digikey.com/">DigiKey</a></td>
+<td style="text-align: left;">Peralta 109</td>
 <td style="text-align: left;"><a href="https://www.ti.com/lit/ds/symlink/drv8876.pdf">Datasheet</a></td>
-<td style="text-align: left;">U3</td>
+<td style="text-align: left;">Motor Driver</td>
 </tr>
 <tr>
-<td style="text-align: left;">DC Gear Motor with Encoder</td>
+<td style="text-align: left;">DC Barrel Jack with Switch</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">$16.50</td>
-<td style="text-align: center;">$16.50</td>
-<td style="text-align: left;">DFRobot</td>
-<td style="text-align: left;">FIT0186</td>
-<td style="text-align: left;"><a href="https://www.digikey.com/">DigiKey</a></td>
-<td style="text-align: left;">TBD</td>
-<td style="text-align: left;">M1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">BarrelJack_Switch</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">J1</td>
 </tr>
 <tr>
-<td style="text-align: left;">PIC18F57Q43 Curiosity Nano</td>
+<td style="text-align: left;">1 A Fuse</td>
 <td style="text-align: center;">1</td>
-<td style="text-align: center;">TBD</td>
-<td style="text-align: center;">TBD</td>
-<td style="text-align: left;">Microchip Technology</td>
-<td style="text-align: left;">DM164150</td>
-<td style="text-align: left;"><a href="https://www.digikey.com/">DigiKey</a></td>
-<td style="text-align: left;"><a href="https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F27-47-57Q43-Data-Sheet-40002147.pdf">Datasheet</a></td>
-<td style="text-align: left;">TBD</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">1 A</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">F1</td>
+</tr>
+<tr>
+<td style="text-align: left;">8-Pin Ribbon Cable Connector</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">1x08, 2.54 mm</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">J2</td>
+</tr>
+<tr>
+<td style="text-align: left;">5-Pin Header/Connector</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">1x05, 2.54 mm</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">J3</td>
+</tr>
+<tr>
+<td style="text-align: left;">8-Pin Header/Connector</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">1x08, 2.54 mm</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">J4</td>
+</tr>
+<tr>
+<td style="text-align: left;">DPST Debugging Pushbutton/Switch</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">SW_DPST</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">SW2, SW3</td>
+</tr>
+<tr>
+<td style="text-align: left;">Red LED</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">Red LED</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">D1</td>
+</tr>
+<tr>
+<td style="text-align: left;">Indicator LED</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">LED</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">D2</td>
+</tr>
+<tr>
+<td style="text-align: left;">10 kΩ Potentiometer</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">10 kΩ</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">RV1</td>
+</tr>
+<tr>
+<td style="text-align: left;">100 kΩ, 1/4 W Resistor</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">100 kΩ</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">R1, R8</td>
+</tr>
+<tr>
+<td style="text-align: left;">10 kΩ, 1/4 W Resistor</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">10 kΩ</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">R2, R3, R7</td>
+</tr>
+<tr>
+<td style="text-align: left;">220 kΩ, 1/4 W Resistor</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">220 kΩ</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">R4</td>
+</tr>
+<tr>
+<td style="text-align: left;">1 kΩ, 1/4 W Resistor</td>
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">1 kΩ</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">R5, R6, R10</td>
+</tr>
+<tr>
+<td style="text-align: left;">4 kΩ, 1/4 W Resistor</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">4 kΩ</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">R9</td>
+</tr>
+<tr>
+<td style="text-align: left;">220 Ω, 1/4 W Resistor</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">220 Ω</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">R11</td>
+</tr>
+<tr>
+<td style="text-align: left;">0.1 µF, 25 V Capacitor</td>
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">0.1 µF, 25 V</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">C1, C2</td>
+</tr>
+<tr>
+<td style="text-align: left;">1 µF, 10 V Capacitor</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">1 µF, 10 V</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">C3</td>
+</tr>
+<tr>
+<td style="text-align: left;">0.33 µF, 25 V Capacitor</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">0.33 µF, 25 V</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">C4</td>
+</tr>
+<tr>
+<td style="text-align: left;">0.1 µF, 10 V Capacitor</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">0.1 µF, 10 V</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">C5</td>
+</tr>
+<tr>
+<td style="text-align: left;">PCB Test Point</td>
+<td style="text-align: center;">7</td>
+<td style="text-align: center;">On Hand</td>
+<td style="text-align: center;">$0.00</td>
+<td style="text-align: left;">Generic</td>
+<td style="text-align: left;">Test Point</td>
+<td style="text-align: left;">Peralta 109</td>
+<td style="text-align: left;">N/A</td>
+<td style="text-align: left;">TP1–TP7</td>
 </tr>
 </tbody>
 </table>
-<h2 id="additional-components">Additional Components</h2>
-<p>The final BOM should also include all components used in the completed schematic, including connectors, resistors, capacitors, diodes, LEDs, pushbuttons, test points, and other supporting components. Quantities and schematic reference designators will be finalized after completion of the schematic.</p>
+<h2 id="components-requiring-purchase">Components Requiring Purchase</h2>
+<p>The majority of the electrical components required for the subsystem are available from the existing Peralta 109 inventory. The following components are not currently available and will therefore be included in the purchase request:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;"><strong>Component</strong></th>
+<th style="text-align: left;"><strong>Manufacturer #</strong></th>
+<th style="text-align: left;"><strong>Vendor</strong></th>
+<th style="text-align: center;"><strong>Qty Required</strong></th>
+<th style="text-align: center;"><strong>Unit Cost</strong></th>
+<th style="text-align: center;"><strong>Total</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">12 V, 50 RPM DC Gearmotor</td>
+<td style="text-align: left;">FIT0492-A</td>
+<td style="text-align: left;">DigiKey</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">$11.90</td>
+<td style="text-align: center;">$11.90</td>
+</tr>
+<tr>
+<td style="text-align: left;">12 V, 5 A, 60 W AC/DC Power Supply</td>
+<td style="text-align: left;">GST60A12-P1J</td>
+<td style="text-align: left;">DigiKey</td>
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">$19.40</td>
+<td style="text-align: center;">$19.40</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Total Purchase Cost</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><strong>$31.30</strong></td>
+</tr>
+</tbody>
+</table>
 
 
 
