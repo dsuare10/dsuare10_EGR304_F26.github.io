@@ -1,7 +1,7 @@
 ---
 title: Individal Block Diagram
 
-<img width="813" height="719" alt="Individual_BlockDiagram drawio (2)" src="https://github.com/user-attachments/assets/bf1c18e6-341f-47b3-9130-e9c6359b2b26" />
+<img width="832" height="732" alt="Individual_BlockDiagram drawio (3)" src="https://github.com/user-attachments/assets/305f085c-79e7-4d11-b8cc-03b2ea24e4a3" />
 
 ## Description
 
