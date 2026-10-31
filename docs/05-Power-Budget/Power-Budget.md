@@ -16,4 +16,4 @@ From the prepared Power Budget, the power requirements of the major electrical c
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](PowerBudget(final).pdf), and a Microsoft Excel Sheet [*here*](PowerBudget_Laundry_Folding_Robot_Corrected%(1).xlsx).
+The power budget as a PDF download is available [*here*](PowerBudget(final).pdf), and a Microsoft Excel Sheet [*here*](Power-Budget/PowerBudget_Laundry_Folding_Robot_CORRECTED%(1).xlsx).
